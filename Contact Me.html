@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <style>
+            body{
+                background-color: lightblue;
+                padding: 10px;
+            }
+            .contact input{
+                padding-left: 20%;
+                padding-right: 20%;
+                padding-top: 10px;
+                padding-bottom: 5px;
+                border-radius: 10px;
+            }
+            .Message{
+                padding: 10px;
+                border-radius: 10px;
+            }            
+            .contact{
+                text-align: center;
+                background-color: lightsalmon;
+                border-radius: 20px;
+                margin-top: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .submit button{
+                padding: 10px 30px;
+                border-radius: 10px;
+                font-size: 15px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .submit :hover{                
+                background-color: lightblue;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="contact">
+        <form>
+            <h1>Contact Me</h1>
+            <br>
+            <label>Name</label><br>
+            <input class="Name" type="text" id="name" placeholder="Enter Your Name" required>
+            <br><br>
+
+            <label>Email</label><br>
+            <input class="Email" type="email" id="email" placeholder="test@gmail.com" required>
+            <br><br>
+
+            <label>Your Message</label><br>
+            <textarea class="Message" 
+            rows="5" cols="50" name="description" 
+            id="description">
+            </textarea>
+            <br><br>
+
+            <div class="submit">
+            <button type="button" onclick="alert('Validating')">Submit</button>
+            </div>
+        </form>
+        
+
+        <a href="index.html">Back to the homepage</a>
+    </div>
+
+
+    </body>
+</html>
